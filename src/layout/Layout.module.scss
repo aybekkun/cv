@@ -1,0 +1,14 @@
+.main{
+    padding: 20px 0;
+}
+
+.wrap{
+    display: flex;
+    gap: 60px;
+}
+
+@media (max-width: 830px) {
+.wrap{
+    flex-direction: column;
+}
+}
